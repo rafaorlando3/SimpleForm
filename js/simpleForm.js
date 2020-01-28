@@ -52,12 +52,6 @@ simpleform.moduloT = (function() {
     });
   }
 
-  function limpaForm() {
-    $('#novaTask').each (function(){
-        this.reset();
-    });
-  }
-
   function buscaRegistros() {
     $("#buscaRegistros").keypress(function () {
         var pesquisa = $('#buscaRegistros').val();
@@ -110,7 +104,6 @@ simpleform.moduloT = (function() {
   return {
     iniciar:iniciar,
     novoRegistro:novoRegistro,
-    limpaForm:limpaForm,
     registros:registros,
     buscaRegistros:buscaRegistros,
     validaCampos:validaCampos
