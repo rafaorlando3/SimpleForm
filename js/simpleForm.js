@@ -44,7 +44,6 @@ simpleform.moduloT = (function() {
 
   }
 
- 
   function registros() {
     $.get('include/registerList.php', function (resultado) {
         $('#registros').html(resultado);
