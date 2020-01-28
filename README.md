@@ -1,4 +1,4 @@
-# [FormSimple - Netshow.me](Exemplo Online: https://mouthless-candles.000webhostapp.com/ )
+# [FormSimple - Netshow.me]
 
 ## Projeto
 
@@ -9,3 +9,6 @@ Esse projeto foi realizado a partir de um desafio prático para empresa Netshow.
 -> Na pasta config está o arquivo SQL "simpleform.sql" para ser importado em uma base MySQL e também o arquivo "config.php" no qual é para configurar o e-mail que receberá as informações cadastradas no formulário após sua submissão.
 
 -> No caminho "include/class/" temos o arquivo "connection.php" a qual deverá ser configurada login, senha e base de dados para que os dados sejam cadastrados.
+
+## Exemplo Online
+https://mouthless-candles.000webhostapp.com/ 
